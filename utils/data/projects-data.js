@@ -1,51 +1,80 @@
-import ayla from '/public/image/ayla.jpg';
-import crefin from '/public/image/crefin.jpg';
-import realEstate from '/public/image/real-estate.jpg';
-import travel from '/public/image/travel.jpg';
+import ayla from "/public/image/ayla.jpg";
+import crefin from "/public/image/crefin.jpg";
+import realEstate from "/public/image/real-estate.jpg";
+import travel from "/public/image/travel.jpg";
 
 export const projectsData = [
-    {
-        id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team build an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
-        image: crefin,
-    },
-    {
-        id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-        image: travel,
-    },
-    {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. To develop the API, we used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose. For the UI, we utilized NextJS, Formik, TailwindCSS, and other npm libraries. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
-        image: realEstate,
-    },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        image: ayla,
-        role: 'Full Stack Developer',
-    }
+  {
+    id: 1,
+    name: "Campus-Buzz",
+    description:
+      "Developed a feature-rich Full-Stack social media platform using Next.js, TypeScript, and a modern tech stack. Designed and implemented core features such as post creation, commenting, and image/video uploads. Designed a scalable and efficient monorepo-based application: Implemented a Prisma-based backend with a Neontech PostgreSQL database for handling CRUD operations related to posts, feeds, and communities. Prioritized core functionality while adhering to best practices for securing API routes, handled authentication/authorization using nextAuth (Gmail sign-in), and optimized database queries for performance.",
+    tools: [
+      "Next.js",
+      "TypeScript",
+      "Prisma",
+      "Neontech PostgreSQL",
+      "nextAuth",
+      "Tailwind CSS",
+    ],
+    role: "Full Stack Developer",
+    githubLink: "https://github.com/maheshsp1809/campus-buzz",
+    deployLink: "https://campus-buzzz.vercel.app",
+    image: crefin,
+  },
+  {
+    id: 2,
+    name: "NetflixGpt-4",
+    description:
+      "Developed a user-friendly movie exploration platform using React.js, Tailwind CSS, Redux Toolkit, Firebase Authentication, TMDB API, OpenAI API, and memoization techniques. Leveraged the power of OpenAI’s GPT-3.5 API to integrate natural language movie search capabilities into the TMDB API, enhancing user experience by enabling intuitive and conversational movie searches.",
+    tools: [
+      "React.js",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "Firebase Authentication",
+      "TMDB API",
+      "OpenAI API",
+    ],
+    role: "Frontend Developer",
+    githubLink: "https://github.com/maheshsp1809/netflixgpt-4/",
+    deployLink: "https://netflix-gpt-4-maheshsps-projects.vercel.app/",
+    image: travel,
+  },
+  {
+    id: 3,
+    name: "Urban Sound Classification",
+    description:
+      "Developed a model using Artificial Neural Networks (ANN) and used Mel-Frequency Cepstral Coefficients (MFCC) feature extraction technique, achieving an accuracy of 87% on the Urban Sound 8k dataset. Evaluated the model’s performance using multiple metrics, including 10-fold cross-validation classification accuracy, precision, recall, F1-score, and confusion matrix. This work led to a research paper published by IEEE.",
+    tools: ["Python", "TensorFlow", "MFCC", "ANN", "Cross-Validation", "IEEE"],
+    role: "Researcher",
+    githubLink: "https://github.com/maheshsp1809/",
+    deployLink: "https://ieeexplore.ieee.org/document/10060146",
+    image: realEstate,
+  },
+  //   {
+  //     id: 4,
+  //     name: "AI Powered Financial App",
+  //     description:
+  //       "Built an AI-powered financial mobile application. Developed API using Express, TypeScript, OpenAI, AWS, and MongoDB. Implemented OTP via AWS SES, Google, and Facebook for authentication. Built AI assistants using OpenAI's latest model and trained them using our dataset. Integrated AWS Transcribe for converting voice messages to text and Google Sheets for data fetching, generating a PDF term sheet sent via AWS SES.",
+  //     tools: [
+  //       "Express",
+  //       "MongoDB",
+  //       "OpenAI API",
+  //       "AWS SES",
+  //       "AWS S3",
+  //       "Node Mailer",
+  //       "Joi",
+  //       "Puppeteer",
+  //       "EC2",
+  //       "PM2",
+  //       "Nginx",
+  //     ],
+  //     role: "Backend Developer",
+  //     githubLink: "https://github.com/maheshsp1809/financial-app",
+  //     deployLink: "https://financial-app.vercel.app",
+  //     image: crefin,
+  //   },
 ];
-
 
 // Do not remove any property.
 // Leave it blank instead as shown below
