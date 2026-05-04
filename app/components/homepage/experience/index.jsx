@@ -67,6 +67,16 @@ function Experience() {
                           </p>
                         </div>
                       </div>
+                      {experience.description && (
+                        <ul className="px-3 pb-3 flex flex-col gap-1">
+                          {experience.description.map((point, i) => (
+                            <li key={i} className="flex items-start gap-2 text-xs sm:text-sm text-[#d3d8e8]">
+                              <span className="mt-1 text-[#16f2b3] shrink-0">▹</span>
+                              <span>{point}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
                     </div>
                   </GlowCard>
                 ))

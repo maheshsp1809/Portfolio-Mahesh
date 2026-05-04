@@ -1,9 +1,9 @@
 export const personalData = {
   name: "Mahesh",
   profile: "/profileds.jpg",
-  designation: "Software Developer",
+  designation: "Software Development Engineer",
   description:
-    "My name is Mahesh SP. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on TypeScript and Java. I love to do most of the things using both of them. I am available for any kind of job opportunity that suits my skills and interests.",
+    "My name is Mahesh SP. I am a Full-Stack Software Development Engineer currently building EV fleet management systems at KZAM EV Tech. I love crafting scalable web applications — from energy dashboards and SLA platforms to food delivery apps and social media platforms. My core stack spans Node.js, React, Next.js, SvelteKit, Spring Boot, and TypeScript. I'm a Gold Prize winner at the ISGF Innovation Awards 2024 and a published IEEE researcher. I am always open to challenging opportunities that push me to grow.",
   email: "maheshsp1809@gmail.com",
   phone: "8660892810",
   address: "Prestige Apartments RR Nagar Bangalore",
